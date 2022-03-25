@@ -5,6 +5,7 @@ describe('SmartPhone', () => {
   const price = 24000;
 
   beforeEach(() => {
+    
     smartPhone = new SmartPhone(ram, batteryPower,price);
   });
 
